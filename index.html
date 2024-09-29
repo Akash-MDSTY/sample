@@ -3,10 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="style" href="style.css" >
+    <title>Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white; /* Grey background */
+            color:black; /* White text */
+        }
+        .footer {
+            background-color: #343a40; /* Darker footer */
+        }
+        h2 {
+            color:black; /* White color for headings */
+        }
+        .table {
+            color:black; /* White text for table */
+        }
+        .card {
+            color: black; /* Black text for cards */
+        }
+        .card-body {
+            background-color: #ffffff; /* White background for card body */
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="container mt-5">
+        <!-- Profile Section -->
+        <div class="text-center">
+            <img src="path/to/your/image.jpg" alt="Student Image" class="img-fluid rounded-circle" width="150">
+            <h1 class="mt-3">Student Name</h1>
+        </div>
+
+        <!-- Education Section -->
+        <div class="mt-5">
+            <h2>Education</h2>
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>Tenth</td>
+                        <td>School Name</td>
+                        <td>Year (e.g., 2018)</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>College Name</td>
+                        <td>Year (e.g., 2020)</td>
+                    </tr>
+                    <tr>
+                        <td>Graduation</td>
+                        <td>University Name</td>
+                        <td>Year (e.g., 2024)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="mt-5">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item bg-light text-dark">HTML</li>
+                <li class="list-group-item bg-light text-dark">CSS</li>
+                <li class="list-group-item bg-light text-dark">JavaScript</li>
+                <li class="list-group-item bg-light text-dark">React</li>
+                <li class="list-group-item bg-light text-dark">Node.js</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="mt-5">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1 Title</h5>
+                            <p class="card-text">Brief description of Project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2 Title</h5>
+                            <p class="card-text">Brief description of Project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3 Title</h5>
+                            <p class="card-text">Brief description of Project 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Internships Section -->
+        <div class="mt-5">
+            <h2>Internships</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/internship1.jpg" class="card-img-top" alt="Internship 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Internship 1 Title</h5>
+                            <p class="card-text">Brief description of Internship 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/internship2.jpg" class="card-img-top" alt="Internship 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Internship 2 Title</h5>
+                            <p class="card-text">Brief description of Internship 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path/to/internship3.jpg" class="card-img-top" alt="Internship 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Internship 3 Title</h5>
+                            <p class="card-text">Brief description of Internship 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center mt-5">
+        <div>
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_bird_logo_2012.svg" alt="Twitter" width="30">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn" width="30">
+            </a>
+            <a href="https://github.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="30">
+            </a>
+        </div>
+        <p class="mt-2">&copy; 2024 Your Name</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
